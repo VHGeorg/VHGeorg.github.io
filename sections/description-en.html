@@ -6,17 +6,22 @@ The namespace for the WOOD ontology is: http://www.semanticweb.org/wood </span>
 </p>
 The suggested prefix is: wood </span>
   </p>
-paragraph1 </span>
+An important component for the economical and environmentally creation of living spaces is the renovation of existing buildings. This requires a survey of building damages by an expert. For the inspection and evaluation of structural damage, an ontology-based inspection procedure is presented. For this purpose, the "Wood damage ontology" is created. It focuses on wood components and can be used in all areas of structural damage where wood has been installed. </span>
    </p>
-paragraph1 </span>
-  </p>
 <div align="center">
 	<img src="Kategorien.png" alt="wood" width="1000"><figcaption>wood classes</figcaption>
 </div>
   </p>
-paragraph2 </span>
+The general structure of the ontology consists of six main categories. These are: Report, Wood Component, Wood Damage, Investigation Procedure, Repair Procedure, and Cause of Damage. These classes have subdivisions in which the data sets are categorized. The data sets are defined as individuals. </span>
   </p>
 <div align="center">
 	<img src="Zusammenhänge.png" alt="wood" width="600"><figcaption>wood object properties</figcaption>
 </div>
+
+   </p>
+The first category is the "Report". Basic information in the creation of a report is defined here. The work steps bundle the main categories using data properties. Each work step is associated with one of the main categories. To give a comprehensible definition of the damage and conclusion of the cause, all work steps must be entered. The category "Wood damage" describes the damage found. It is a subcategory of the Classified Damage from the DOT ontology (Al-Hakam Hamdan & Mathias Bonduel, 2019). The wood damages are defined as individuals that have links to causes and removal methods based on object properties. The category "Cause of damage" describes possible causes for the damage described above. They are divided into chemical, biological, and mechanical causes of damage. The causes can emerge through a change in the component properties. The class "Investigation" contains the subclass "Investigation procedures" and the subclass "Searched properties". The properties are modeled as individuals. Each of these individuals also has data properties that define the normal state and the changed state. A comparison is made between the normal state and the changed state, and it is checked whether these values are equal or unequal. If the values differ, the property is categorized as an active cause. Furthermore, the individual properties are linked to the investigation procedures. The category "Wood component" describes the found component. Since the ontology deals with wood components, wood-specific properties are defined here. The class "Repair procedure" describe possible remediation proposals. The procedures joining, cutting, surface coating and change of material properties were chosen. </span>
+  </p>
+
+
+
 </html>
